@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {   
+    font-family: "Gelasio", serif;
+    /* font-family: "Roboto", sans-serif; */
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;  
+}
+.background__image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.booking__now__bg {
+     /* background-image: url(image/header/Rectangle31.png);
+     background-size: 1920px 900px;
+     background-repeat: no-repeat;
+     width: 1920px;
+     height: 900px; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 51px;
+    color: rgba(255, 255, 255, 1);
+    align-items: center;
+    padding-top: 35px;
+   
+}
+.header__name {
+        width: 124px;
+        height: 36px;
+}
+.header__nav__list {   
+    display: flex;
+    justify-content: space-between;
+    width: 470px;
+    height: 51px;
+    align-items: center;
+}
+       
+.header__list__item {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);   
+    text-decoration: none;     
+}
+
+.booking__now__btn {
+    width: 163px;
+    height: 51px;
+    background-color: rgba(201, 69, 59, 1);
+    border-radius: 5px;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.railtrips__title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 350px;
+}
+.railtrips__text {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    margin-top: 104px;
+    margin-bottom: 98px;
+}
+.railtrips__btn {
+    width: 187px;
+    height: 59px;
+    background-color: rgba(201, 69, 59, 1);
+    border-radius: 5px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.popular__location {
+    padding-top: 600px;
+    padding-bottom: 140px;
+}
+.popular__location__wrapper {
+    text-align: center;
+}
+.popular__location__title {
+    font-weight: 500;
+    font-size: 43px;
+    color: rgba(0, 0, 0, 1);
+}
+.popular__location__text {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);   
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.countries__travel__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.common__travel__card {
+    width: 360px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.country__img {
+    width: 360px;
+    height: 331px;
+}
+.h3__and__p {
+    width: 306px;
+    height: 101px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 27px 35px 27px 33px;
+    text-align: center;
+}
+.country__name {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+.country__description {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+    font-family: "Roboto", sans-serif;
+}
+.special__offers {
+
+}
+.special__offers__title__and__p {  
+    text-align: center;
+    margin-bottom: 60px;
+}
+.special__offers__title {
+    font-size: 43px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+.special__offers__p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 20px;
+}
+.special__offers__wrapper {
+    display: flex;    
+    justify-content: space-between;
+}
+.country__card__wrapper {
+    list-style: none;
+}
+.country__card__offer {
+    width: 262px;
+    height: 161px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.country__foto {
+  margin-bottom: 20px;  
+}
+.country__name__title {
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1);
+}
+.country__name__and__rate {
+    display: flex;
+    width: 181px;
+    height: 30px;
+    justify-content: space-between;
+}
+.country__loc {
+    display: flex;
+    width: 72px;
+    height: 30px;
+    justify-content: space-between;
+}
+.loc__img {
+    width: 11px;
+    height: 15px;
+}
+.loc__name {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    font-family: "Roboto", sans-serif;
+}
+
+.country__rate {
+    display: flex;
+    width: 59px;
+    height: 27px;
+    justify-content: space-between;
+}
+.rate__icon {
+    width: 24px;
+    height: 24px;
+}
+.rate__number {
+    width: 25px;
+    height: 27px;
+}
+.rest__time {
+     font-family: "Roboto", sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     color: rgba(0, 0, 0, 1);
+}
+.price {
+   font-weight: 500;
+   font-size: 18px;
+   font-family: "Roboto", sans-serif; 
+}
+.person__price {
+   font-weight: 400;
+   font-size: 18px;
+   font-family: "Roboto", sans-serif; 
+}
+.blog__news {
+    padding-bottom: 142px;
+}
+.blog__news__wrapper {
+    display: flex;
+    gap: 32px;
+   
+}
+.blog__news__title__p {
+    text-align: center;
+    padding-top: 140px;
+    margin-bottom: 56px;   
+}
+.blog__news__title {
+    font-weight: 500;
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+.blog__news__p {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif; 
+      color: #676767;
+}
+.banff__national__park__description {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+    padding-top: 35px;
+}
+.banff__national__park__img {
+    width: 554px;
+    height: 397px;
+}
+.banff__national__park__title {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+
+}
+.banff__national__park__p {
+    font-weight: 400;
+    font-size: 18px; 
+    color: #676767;
+    font-family: "Roboto", sans-serif; 
+}
+
+.banff__national__park__link {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 20px; 
+    text-decoration: none;
+}
+.sigts__name {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.sigts {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+   
+    
+}
+.sigts__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+  
+}
+.sigts__description_-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);  
+}
+.sigts__description_-text {
+    font-weight: 400;
+    font-size: 18px; 
+    color: #676767;
+    font-family: "Roboto", sans-serif; 
+}
+.sigts__description__link {
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 20px; 
+    text-decoration: none;
+}
+footer {
+    background-color: rgba(38, 148, 153, 0.04);
+    padding-top: 70px;
+    padding-bottom: 78px;
+}
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 186px;
+    height: 178px;
+}
+.logo {
+    width: 124px;
+    height: 24px;
+    margin-bottom: 40px;
+    
+}
+.mail__contacts {
+    width: 186px;
+    height: 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.contact__us {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+.mail__link {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+.social {
+    display: flex;
+    width: 161px;
+    height: 20px;
+    justify-content: space-between;
+}
+.social__img {
+    width: 20px;
+    height: 20px;
+}
+.footer__link__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 74px;
+    height: 200px;
+
+}
+.footer__link__list__2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 158px;
+    height: 156px;}
+
+.footer__link__item {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+.footer__input {
+    height: 116px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.subscribe {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 500;
+    font-size: 20px;
+}
+.input__and__button {
+    width: 353px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer__input__place {
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    width: 195px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    align-items: center;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+.footer__button {
+    width: 103px;
+    height: 44px;
+    background-color: rgba(201, 69, 59, 1);
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif; 
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: none;
+}
+.test {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.test__1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+.test-wrapper{
+    width: 367px;
+}
+.test__1__wrapper {
+    width: 624px;
+}
+
+@media(max-width:1920px){
+
+}
